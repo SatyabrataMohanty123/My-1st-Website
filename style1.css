@@ -1,0 +1,46 @@
+body {
+    color: black;
+    background-color: rgb(155, 197, 222);
+    text-align: center;
+    font-size: large;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.data {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    font-size: xx-large;
+}
+
+.header {
+    background-color: blue;
+    padding-top: 0.0001cm;
+    padding-bottom: 0.0001cm;
+    padding-left: 0.0001cm;
+    padding-right: 0.0001cm;
+}
+
+#fieldset {
+    border-color: black;
+    width: 550px;
+    height: 140px;
+    text-align: center;
+    align-self: center;
+
+}
+
+legend {
+    background-color: blue;
+    color: white;
+    width: 550px;
+    padding: 2px;
+}
+
+#I_AGREE {
+    color: white;
+    background-color: blue;
+}

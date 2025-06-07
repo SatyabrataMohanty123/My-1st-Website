@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIT EXPRESS / Sign up</title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        body {
+    color: black;
+    background-color: rgb(155, 197, 222);
+    text-align: center;
+    font-size: xxx-large;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+.data {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    font-size: xx-large;
+}
+
+.header {
+    background-color: yellow;
+}
+
+#fieldset {
+    border-color: black;
+    width: 550px;
+    height: 140px;
+    text-align: center;
+    align-self: center;
+
+}
+
+legend {
+    background-color: blue;
+    color: white;
+    width: 550px;
+    padding: 2px;
+}
+
+#I_AGREE {
+    color: white;
+    background-color: blue;
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>WELCOME TO IIT EXPRESS</h1>
+    </header>
+    <form action="">
+        <p>NAME: <input type="text" placeholder="ENTER YOUR NAME" class="data" required></p>
+        <field set class="data" id="fieldset">
+            <!--<leg end>Gender</legend>-->
+            <p><input type="radio" name="OPTIONS" class="data" required> Male <input type="radio" name="OPTIONS" class="data"> Female <input type="radio" name="OPTIONS" class="data"> Prefer not to say</p>
+        </fieldset>
+        <p>PHONE NO.: <input type="number" placeholder="ENTER YOUR Ph. No." class="data" required></p>
+        <p>EMAIL ID: <input type="email" placeholder="ENTER YOUR EMAIL ID" class="data" required></p>
+        <p>YOUR CITY: <select name="select" class="data" required>
+            <option value="blank">--ENTER YOUR CITY--</option>
+            <option value="delhi">Delhi</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="bhubaneswar">Bhubaneswar</option>
+        </select></p>
+        <p>
+            FULL ADDRESS: <textarea name="ADDRESS" class="data" placeholder="ENTER YOUR ADDRESS" cols="35" rows="1" required></textarea>
+        </p>
+        <p>PASSWORD: <input type="password" placeholder="ENTER PASSWORD" class="data" required></p>
+        <p>UPLOAD YOUR PHOTO: <input type="file" name="UPLOAD FILE" class="data" required></p>
+        <h3><input type="checkbox" name="CHECKBOX" id="I_AGREE" required> I agree</h3>
+        <input type="reset" name="RESET" class="data" required>
+        <input type="submit" name="SUBMIT" class="data" value="Sign up" required>
+        <input type="submit" name="SUBMIT2" class="data" value="Sign in" required><br><br><hr color="black">
+    </form>
+    <footer>
+        Email - 24cl05014@iitbbs.ac.in <br>
+        Ph. No. - +91 8114975127 <br>
+        Address - IIT Bhubaneswar, Jatni, Khurda, Odisha, India.
+        
+        <a href="about.html" target="_blank"><h3>About us</h3></a>
+        <a href="home.html" target="_blank"><h3>Home</h3></a>
+        <a href="conditions.html" target="_blank"><h3>Terms & conditions</h3></a>
+    </footer>
+</body>
+</html>
